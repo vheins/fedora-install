@@ -1,3 +1,8 @@
+##Install Chrome
+sudo dnf install wget -y
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo dnf localinstall google-chrome-stable_current_x86_64.rpm -y
+
 
 ##Install docker
 
@@ -23,3 +28,5 @@ sudo chmod g+rwx "$HOME/.docker" -R
 #Configure Docker to start on boot with systemd
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
+
+
