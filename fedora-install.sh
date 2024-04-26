@@ -9,6 +9,8 @@ sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.m
 sudo dnf check-update
 sudo dnf -y sinstall code
 
+##Install Utilities
+sudo dnf install -y rclone htop nethogs
 
 ##Install docker
 #Uninstall old versions
