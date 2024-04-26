@@ -1,3 +1,9 @@
+##Install Snap Store
+sudo dnf install snapd
+sudo ln -s /var/lib/snapd/snap /snap
+sudo snap install snap-store
+
+
 ##Install Chrome
 sudo dnf install wget -y
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
